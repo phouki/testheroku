@@ -1,8 +1,31 @@
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin:0;
+  min-height: 100vh;
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.jumbotron_image {
+  background-image: url('../images/photo1.jpg');
+  background-position: bottom;
+  background-size: cover;
+  height: 70vh;
+  padding: 0;
+}
+
+.jumbotron_display {
+  background-color: rgba(0,0,0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.jumbotron_button {
+  width: 200px;
 }
